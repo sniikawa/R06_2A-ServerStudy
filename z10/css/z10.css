@@ -1,0 +1,37 @@
+body
+{
+    background-color:khaki ;
+    background-image: url(../img/back.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#title
+{
+    letter-spacing: 10px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+.kome{color:crimson;}
+.shortcut{font-family: serif;}
+p{line-height: 180%;}
+a
+{
+    text-decoration:none
+}
+a:link
+{
+    color:darkgreen
+}
+a:visited
+{
+    color:brown
+}
+a:focus
+{
+    color:darkorchid
+}
+a:hover
+{
+    color:hotpink
+}
