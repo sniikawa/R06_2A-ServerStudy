@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+img
+{
+    max-width: 100%; /*画像の横幅をスクリーンサイズに合わせる*/
+    height: auto;    /*横幅に合わせて縦幅をそろえる*/
+}
+
+/*モバイルファーストなのでスマホの設定からしていく*/
+
+/*スマホ用画面設定*/
+body
+{
+    background-color: blanchedalmond;
+}
+
+/*タブレット向け設定(768 ~ 1023)*/
+@media screen and (min-width:768px)
+{
+    /*ブラウザサイズが768px超えたらここを適用*/
+    body
+    {
+        background-color: aquamarine;
+    }
+}
+
+/*PC向け設定(1024 ~ )*/
+@media screen and (min-width:1024px)
+{
+    /*ブラウザサイズが1024px超えたらここを適用*/
+    body
+    {
+        background-color: brown;
+    }
+}
